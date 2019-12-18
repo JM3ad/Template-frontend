@@ -15,3 +15,6 @@ This project was created with [Create React App](https://github.com/facebook/cre
 ## Use as a template
 In order to use this as a template, you should start by:
 - Removing the firebase files (.firebase & firebase.rc)
+- `npx firebase init hosting`
+- `npm i` in both parent and functions folder
+- You should then be able to run `npx firebase deploy`
